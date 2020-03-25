@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventryManagement.Data\InventryManagement.Data.csproj" />
+    <ProjectReference Include="..\InventryManagement.Repository\InventryManagement.Repository.csproj" />
+    <ProjectReference Include="..\InventryManagement.ViewModel\InventryManagement.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
